@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEAE1"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:background="@drawable/top_backgound">
+
+                    <TextView
+                        android:id="@+id/textViewBack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_baseline_arrow_back_24" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="25dp"
+                    android:background="@drawable/bottom_background"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp">
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="10dp"
+                            android:text="Full Name:"
+                            android:textColor="#3F51B5"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:paddingRight="10dp"
+                            android:text="Phạm Như Hoàng"
+                            android:textAlignment="viewEnd"
+                            android:textSize="24sp"
+                            tools:ignore="RtlCompat" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/view1"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="#636060" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp">
+
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="10dp"
+                            android:text="Password:"
+                            android:textColor="#3F51B5"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:paddingRight="10dp"
+                            android:text="● ● ● ● ● ● ● "
+                            android:textAlignment="viewEnd"
+                            android:textSize="24sp"
+                            tools:ignore="RtlCompat" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="#636060" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp">
+
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="10dp"
+                            android:text="Phone Num:"
+                            android:textColor="#3F51B5"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:paddingRight="10dp"
+                            android:text="0389877302"
+                            android:textAlignment="viewEnd"
+                            android:textSize="24sp"
+                            tools:ignore="RtlCompat" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="#636060" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp">
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="10dp"
+                            android:text="Address:"
+                            android:textColor="#3F51B5"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textView18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:paddingRight="10dp"
+                            android:text="53 Mộc Bài 4"
+                            android:textAlignment="viewEnd"
+                            android:textSize="24sp"
+                            tools:ignore="RtlCompat" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/avatar" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Phạm Như Hoàng"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView2"
+                    app:layout_constraintHorizontal_bias="0.333"
+                    app:layout_constraintStart_toStartOf="@+id/imageView2"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView2"
+                    tools:text="Phạm Như Hoàng" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="hoangpham@gmail.com"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView5"
+                    app:layout_constraintHorizontal_bias="0.509"
+                    app:layout_constraintStart_toStartOf="@+id/textView5"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5"
+                    tools:text="hoangpham@gmail.com" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button"
+                android:text="Edit" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button"
+                android:text="Change Password" />
+
+            <Button
+                android:id="@+id/buttonLogOut"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button"
+                android:text="Log Out" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

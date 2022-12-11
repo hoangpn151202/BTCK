@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/textViewBacklg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/ic_baseline_arrow2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.005"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.163" />
+
+    <Button
+        android:id="@+id/ProfileButton"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:drawableLeft="@drawable/ic_baseline_profile_person"
+        android:text="Profile"
+        android:paddingLeft="40dp"
+        android:background="@drawable/bg_button2"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.144" />
+
+    <Button
+        android:id="@+id/ListButton"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:background="@drawable/bg_button2"
+        android:drawableLeft="@drawable/ic_baseline_format_list_bulleted"
+        android:drawablePadding="20dp"
+        android:paddingLeft="50dp"
+        android:text="List"
+        android:textAlignment="viewStart"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileButton"
+        app:layout_constraintVertical_bias="0.203" />
+</androidx.constraintlayout.widget.ConstraintLayout>
